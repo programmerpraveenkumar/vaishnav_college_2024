@@ -1,0 +1,36 @@
+.div1 h1{
+    background-color: red;
+}
+h2{
+    color:red;
+}
+.s1 h2{
+     color: blue;
+}.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.menu li{
+    margin: 5px;
+}
+.active{
+    background-color: aqua;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content div{
+    height: 25vh;
+    width: 25%;
+    border: 1px solid #000;
+}
+a:hover{
+    
+}
+@media only screen and(max-width:600px) {
+    body{
+    background-color: blue; 
+    }
+}
