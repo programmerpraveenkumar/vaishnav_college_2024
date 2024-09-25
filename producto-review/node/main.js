@@ -15,6 +15,9 @@ app.use("/user",user)
 var product = require("./api/product");
 app.use("/product",product)  
 
+var admin = require("./api/admin");
+app.use("/admin",admin)
+
 const portno = 8080
 app.listen(portno,()=>{
     console.log(`server is running on ${portno}`);
