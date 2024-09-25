@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vaishnav_college_2024/static/css/main.f855e6bc.css",
+    "main.js": "/vaishnav_college_2024/static/js/main.c6a7f9c2.js",
+    "static/js/453.a6a97343.chunk.js": "/vaishnav_college_2024/static/js/453.a6a97343.chunk.js",
+    "index.html": "/vaishnav_college_2024/index.html",
+    "main.f855e6bc.css.map": "/vaishnav_college_2024/static/css/main.f855e6bc.css.map",
+    "main.c6a7f9c2.js.map": "/vaishnav_college_2024/static/js/main.c6a7f9c2.js.map",
+    "453.a6a97343.chunk.js.map": "/vaishnav_college_2024/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c6a7f9c2.js"
+  ]
+}
