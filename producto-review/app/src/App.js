@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Detail from './pages/Detail';
 import Login from './pages/Login';
 import AddReview from './pages/AddReview';
+import AdminLogin from './pages/Admin/AdminLogin';
+import Approval from './pages/Admin/Approval';
 
 const routerConfig = createBrowserRouter([
   {path:"/","element":<Home/>},
@@ -12,11 +14,16 @@ const routerConfig = createBrowserRouter([
   {path:"/login","element":<Login/>},
   {path:"/detail","element":<Detail/>},
   {path:"/home","element":<Home/>},
+  {path:"/admin","element":<AdminLogin/>},
+  {path:"/adminApproval","element":<Approval/>},
 ])
 function App() {
 
   return (
+    <div>
+      <h1>learn react</h1>
     <RouterProvider router={routerConfig}></RouterProvider>
+    </div>
   );
 }
 

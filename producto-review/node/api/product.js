@@ -17,6 +17,7 @@ router.post("/createProduct",async(req,res)=>{
     }
     let path = process.cwd()+"/uploads/"+req.files.img.name;
     req.files.img.mv(path,(err)=>{});
+    
     const db = mongoDb.db('product-review')
     await db.collection("product").insertOne(data);
     res.json({"msg":"product added"});

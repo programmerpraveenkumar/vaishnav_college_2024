@@ -3,7 +3,7 @@ import {useState,useEffect} from 'react'
 export default function Home(){
     const [list,setList]= useState([]);
     const getData=async ()=>{
-           let res = await fetch("http://localhost:8080/product/getAllProducts")
+           let res = await fetch("https://vaishnav-college-2024-1.onrender.com/product/getAllApprovedProducts")
            let json  = await res.json();
            setList(json);
      }
@@ -43,7 +43,7 @@ export default function Home(){
                                 <a href="" class="dropdown-item">Baby's Dresses</a>
                             </div>
                         </div>
-                        <a href="" class="nav-item nav-link">Shirts</a>
+                        <a href="" data-testid="test2" class="nav-item nav-link">Shirts</a>
                         <a href="" class="nav-item nav-link">Jeans</a>
                         <a href="" class="nav-item nav-link">Swimwear</a>
                         <a href="" class="nav-item nav-link">Sleepwear</a>
